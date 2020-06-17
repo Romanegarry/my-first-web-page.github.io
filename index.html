@@ -4,94 +4,225 @@
 	<meta charset="utf-8">
 	<title>Mon premier site</title>
 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=MuseoModerno&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
 
-<div class="line-transparent">
-	<div class="line-dark"></div>
-	<div class="line-medium"></div>
-	<div class="line-light"></div>
-</div>
-
-<div class="navbar">
+<div class="my-navbar">
 	<div class="logo"> 
-		<img src="images/logo.jpg" class="logo1">
+		<img src="image/logo.png" class="logo1">
 	</div>
 	<div class="links">
-		<div class="link1">Recette</div>
-		<div class="link2">Vos productions</div>
-		<div class="link3">Une super adresse</div>
+		<div class="link" > <i class="fas fa-paw"></i> <br> Histoire</div>
+		<div class="link"> <i class="fas fa-paw"></i> <br> Caractère</div>
+		<div class="link"><i class="fas fa-paw"></i> <br> Education</div>
 	</div>
 </div>
 
+<br>
 
-
-<div class="fond-rose">
-	<h1>Les Muffins de Grand Mère</h1>
-	<h2>Fondants et croustillants</h2>
-	<img class="avatar" src="images/muffins.jpg" width="250px">
+<div class="fond-blue">
+	<h1>AKITA INU</h1>
+	<h2>Les chiens n’ont qu’un défaut : ils croient aux hommes.</h2>
+	<img class="avatar" src="image/akita.inu.jpg" width="250px">
 	<br>
-	<a href="https://www.marmiton.org/recettes/recette_muffins-tres-simples_166385.aspx" class="btn-rose"> En savoir plus </a>
+	<a href="https://wamiz.com/chiens/akita-inu-3" class="my-btn" target="_blanck"> En savoir plus </a>
+
+	<br>
+
+	<!-- Button trigger modal -->
+<button type="button" class="my-btn" data-toggle="modal" data-target="#exampleModal">
+  Qui suis-je ?
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Salut moi c'est Romane Garry ! </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Je suis une étudiante à l'EFAP de Bordeaux et je suis comme vous pouvez le remarquer, une grande fan des chiens ! J'ai créer cette pager pour vous faire découvrir ce chien si loyale : l'Akita Inu. Si vous souhaitez avoir plus d'information, n'hesitez pas à m'envoyer un petit mail ! (en bas de la page) 
+        Bonne lecture !
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="my-btn" data-dismiss="modal">D'accord</button>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div class="fond-rose">
-	<h3> La recette en image </h3>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/fBuSNu2m3XA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div class="fond-rose">
-	<h3>Présentation</h3>
-	<p><b>Les muffins sont de petits gâteaux individuels s'apparentant aux madeleines. Apparus au pays de Galles aux alentours du XIe siècle, ils sont très répandus dans les pays anglo-saxons, principalement aux États-Unis. Le principe caractéristique de fabrication des muffins consiste à préparer le mélange des ingrédients liquides et celui des ingrédients secs séparément, puis à mélanger rapidement et grossièrement les deux préparations. Contrairement aux cupcakes, les muffins n’ont jamais de glaçage.
-    Les muffins sont traditionnellement sucrés. On peut les retrouver au chocolat (avec des pépites de chocolat) ou nature, mais il existe de nombreuses autres variétés : fraise, banane, framboise, orange, vanille, myrtille ou bleuets, etc.
-    Il existe également des muffins salés, les English muffins ou muffins anglais, ressemblant à des sortes de petites crêpes très épaisses, faits à partir de pâte levée. Ces muffins salés sont quelquefois faits avec de la farine complète. Ils sont notamment employés comme base de la préparation des "œufs Bénédicte".</p></b>
+<br>
+
+<div class="fond-blue">
+	<h3><b>Présentation</b></h3>
+	<p><b>L'Akita Inu est un chien majestueux, de constitution robuste et au caractère bien trempé. De type Spitz, il est de grande taille et bien proportionné. Ce chien séduit par son aspect peluche et la grande sérénité qu'il dégage. L’Akita Inu est un chien parfait en tout point pour la vie de famille. Il peut être à la fois sportif ou non, tout dépend du besoin de son maître. Il est calme, prévenant, attentionné, indépendant, fidèle et n’aboie que très modérément. Son éducation est plutôt aisée et sa santé, malgré 2 maladies héréditaires, assez solide..</p></b>
 </div>
+
+<br>
+
+<div class="fond-blue" class="flex">
+	<h3> Photos de vos boules de poils </h3>
+
+<div class="align">
+
+<div class="card" style="width: 18rem;">
+  <img src="image/medor.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">MEDOR</h5>
+      </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="image/calie.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">CALIE</h5>
+         </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="image/sam.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">SAM</h5>
+     </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="image/joy.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">JOY</h5>
+     </div>
+</div>
+</div>
+</div>
+
+<br>
+
+<div class="fond-blue">
+	<h3><b>L'historique de la Race</b></h3>
+	<p>L’Akita Inu est une race japonaise, originaire de la province d'Akita au Japon. Dès le début du 17e siècle, des canidés du nom d’Akita Matagis étaient utilisés comme chien de combat. Ce chien chassait également les sangliers, les cerfs et les ours. Puis, au milieu du 19e siècle, la race fut croisée avec le Tosa et le Mastiff.
+
+    À la suite de l’interdiction des combats de chien en 1908, la race fut améliorée. En 1931, l’Akita Inu fut désigné « Monument Historique » grâce à 9 de ses chiens. Comme de nombreux chiens, l’Akita Inu a failli disparaître en même temps que la Seconde Guerre mondiale, où tous les chiens sauf les Bergers Allemands étaient capturés. Puis, des éleveurs ont réussi à la sauver et la popularité de l’Akita n’a cessé, depuis, de grandir. La volonté des éleveurs de retrouver les caractéristiques de la race d’origine a porté ses fruits si bien que celle que l’on trouve aujourd’hui est la vraie, la pure. La Fédération Cynologique Internationale a reconnu la race le 13 mars 1964.</p>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27813809.455128655!2d120.30344714906698!3d31.681995033020197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34674e0fd77f192f%3A0xf54275d47c665244!2sJapon!5e0!3m2!1sfr!2sfr!4v1592416092577!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+<br>
 
 <div class="two-section margin-100">
-<div class="fond-rose text-left margin-50-right">
-  <h4>Ingrédients</h4>
+<div class="fond-blue text-left margin-50-right">
+  <h4>COMPORTEMENT & CARACTERE</h4>
   <ul>
-  <li>190 g de farine</li>
-  <li>1oeufs</li>
-  <li>90 g de sucre</li>
-  <li>120 ml de lait</li>
-  <li>80 g de beurre (ou 8 cuillères à soupe d'huile)</li>
-  <li>1/2 sachet de levure chimique</li>
-  <li>1 sachet de sucre vanillé</li>
-  <li>1 pincée de sel</li>
-  <li>Canelle</li>
-  <li>Extrait de vanille</li>
+  <li>Affectueux <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i></li>
+  <li>Calme <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i></li>
+  <li>Protecteur <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> </li>
+  <li>Indépendant <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> </li>
+  <li>Chasseur <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> </li>
+  <li>Aboie / Hurle <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> </li>
+  </ul>
+</div>
+
+<div class="fond-blue">
+<div class= "text-left margin-50-right">
+  <h4>COMPORTEMENT AVEC LES AUTRES</h4>
+  <ul>
+  <li>Cohabitation avec les enfants <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i></li>
+  <li>Sociable avec les autres animaux <i class="fas fa-paw"></i> <i class="fas fa-paw"></i></li>
+  <li>Aime les étrangers <i class="fas fa-paw"></i> <i class="fas fa-paw"></i></li>
 </ul>
 </div>
-
-
-<div class="fond-rose text-left">
-    <h4>Préparation</h4>
-    <ol>
-	<li><b>Etape 1 :</b> Dans un premier saladier : mélanger la farine, le sucre, le sel, le sucre vanillé et la levure.</li>
-	<br>
-	<li><b>Etape 2 :</b> Dans un deuxième saladier : mélanger le lait, l'huile(ou beurre fondu) et les oeufs.</li>
-	<br>
-	<li><b>Etape 3 :</b> Verser le contenu du second saladier dans le premier et remuer jusqu'à obtenir une pâte plutôt lisse. Laissez tout de même quelques petits grumeaux.</li>
-	<br>
-	<li><b>Etape 4 :</b> Mettre au four 15 min à 180°C (thermostat 6)</li>
-	<br>
-    </ol>
 </div>
 </div>
 
-<div class="fond-rose">
-	<h3> Vos productions </h3>
-	<img class="prod" src="images/production1.jpg">
-	<img class="prod2" src="images/production3.jpg">
-	<img class="prod" src="images/production2.jpg">
+<br>
+
+<div class="fond-blue">
+	<h3><b>Santé</b></h3>
+  <p><b>Même si c'est une race de chien robuste, il existe deux maladies auto-immunes qui peuvent l'affecter : l'adénite sébacée (maladie de la peau, perte de poil) et le VKH (dépigmentation de la peau, inflammation de l’œil et du cerveau).  La première est une maladie de peau auto-immune qui favorise la perte de ses poils. La seconde est également une maladie auto-immune et héréditaire qui occasionne une inflammation du cerveau et de l’iris de l’œil. Les tests préventifs ne sont pas encore à l’ordre du jour. Dès lors, l’historique des pedigrees de la ligne de son chien est prépondérant avant toute adoption. Par ailleurs, comme tout chien primitif, sa santé est en tout point solide. Il ne craint pas les intempéries.
+  <br>
+  <br>
+  Pour vous prémunir de ces risques et assurer votre compagnon en cas de problèmes de santé, nous vous conseillons une assurance pour chien Akita Inu.</p></b>
+</div>
+
+<br>
+
+<div class="two-section margin-100">
+<div class="fond-blue text-left margin-50-right">
+  <h4>EDUCATION</h4>
+  <ul>
+  <li>Intelligent <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i></li>
+  <li>Obeissant <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> </li>
+  <li>Agréable à vivre <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> </li>
+  <li>Confiance <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i>  </li>
+  </ul>
+</div>
+
+<div class="fond-blue">
+<div class= "text-left margin-50-right">
+  <h4>CONDITIONS DE VIE</h4>
+  <ul>
+  <li>Adapté à la vie en appartement <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> </li>
+  <li>Bien pour les nouveaux maitres <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> </li>
+  <li>Aime le chaud <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> </li>
+  <li>Aime le froid <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> <i class="fas fa-paw"></i> </li>
+</ul>
+</div>
+</div>
+</div>
+
+<br>
+
+
+
+<div class="fond-blue">
+	<h3> Film sur l'Akita Inu - HATCHI </h3>
+	<iframe width="640" height="360" src="https://www.youtube.com/embed/ExiNPpnYLPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br>
+
+<div class="fond-blue">
+	<h3> QUIZZ </h3>
+	<div class="typeform-widget" data-url="https://form.typeform.com/to/Goespwud" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=Goespwud&utm_source=typeform.com-01E957PSHSSZ4CHYFK7D3QSWD7-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+</div>
+
+<br>
+<div class="fond-blue">
+<a href="mailto:romane.garry@efap.com"class="my-btn" target="_blanck">  Pour plus d'informations : CONTACT MOI !</a>
+</div>
+
+<br>
+
+<div class="footer">
+  <div class="footer-links">
+    <a href="https://github.com/Romanegarry"><i class="fab fa-github" target="_blanck"></i></a>
+    <a href="https://www.instagram.com/romane_garry/?hl=fr"><i class="fab fa-instagram"target="_blanck"></i></a>
+    <a href="https://www.facebook.com/romane.garry/"><i class="fab fa-facebook"target="_blanck"></i></a>
+    <a href="https://twitter.com/GarryRomane"><i class="fab fa-twitter"target="_blanck"></i></a>
+    <a href="https://www.linkedin.com/in/romane-garry-47b2b5182/"><i class="fab fa-linkedin"target="_blanck"></i></a>
+  </div>
+  <div class="footer-copyright">
+    This footer is made with <i class="fas fa-heart"></i> at Le Wagon
+  </div>
 </div>
 
 
-<div class="fond-rose">
-	<h3> Une super adresse  </h3>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42632.37888118279!2d-1.7170060293682534!3d48.10013283030897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede34b3813727%3A0x6621e80dc29c0c89!2sPatisserie%20Le%20Daniel%20Boutique%20Les%20Halles!5e0!3m2!1sfr!2sfr!4v1589547728957!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/63301b82e4.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
